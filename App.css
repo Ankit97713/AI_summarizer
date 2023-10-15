@@ -16,18 +16,26 @@
     text-align: center  ;
 }
 
+/* Styling for the .card class */
 .card {
-    background-color: whitesmoke;
-    width: 40%;
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 25px;
-    padding: 2%;
-    box-shadow: 10px 10px;
+  background-color: #ffffff; /* Background color of the card */
+  border: 1px solid #e0e0e0; /* Border around the card */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  padding: 20px; /* Padding inside the card */
+  margin: 10px; /* Margin around the card */
+  text-align: center; /* Center-align the content */
+  font-size: 16px; /* Font size for text inside the card */
+  color: #333; /* Text color */
 }
+
+/* Hover effect for the card */
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly elevate the card on hover */
+}
+
+/* Add more CSS rules as needed to further style your .card class */
+
 
 .heading {
     display: flex;
